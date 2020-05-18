@@ -5,6 +5,7 @@ Unofficial port of the Ren'Py visual novel "John Cena's Sexy High School Adventu
 
 ## TODO:
 Convert .rpy and .py files for faster boot times.
+Make save data save in .nro folder instead of a folder on the SD card root.
 
 ## Build:
 Once you have your DevkitPro environment set up and a copy of renpy-switch.elf from the Ren'Py Switch SDK, all you need to do is run these two commands (or your system's equivalent) and you're set!
