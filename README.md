@@ -6,5 +6,15 @@ Unofficial port of the Ren'Py visual novel "John Cena's Sexy High School Adventu
 ## TODO:
 Convert .rpy and .py files for faster boot times.
 
+## Build:
+Once you have your DevkitPro environment set up and a copy of renpy-switch.elf from the Ren'Py Switch SDK, all you need to do is run these two commands (or your system's equivalent) and you're set!
+
+'/opt/devkitpro/tools/bin/elf2nro' renpy-switch.elf TITLE.nro --icon=icon.jpg --nacp=TITLE.NACP --romfsdir=romfs
+
+'/opt/devkitpro/tools/bin/nacptool' --create "TITLE" "AUTHORS" "VERSION" TITLE.NACP
+
+Replacing "TITLE", "AUTHORS" and "VERSION" with whatever you want.
+
+
 ## Bugs:
 You tell me!
